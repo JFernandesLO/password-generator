@@ -1,0 +1,71 @@
+@font-face {
+    font-family: "Roboto Black";
+    src: url(roboto.black.ttf);
+}
+
+@font-face {
+    font-family: "Roboto Light";
+    src: url(roboto.light.ttf);
+}
+
+@font-face {
+    font-family: "Roboto Bold";
+    src: url(roboto.bold.ttf);
+}
+
+body { 
+    background: #1f2837;
+}
+
+.headline {
+    font-family: "Roboto Black";
+}
+
+#firstSentence {
+    color: white;
+    margin: 50px 0 0px 50px;
+}
+
+#secondSentence {
+    color: #4dd589;
+    margin: 0px 0 10px 50px;
+}
+
+.paragraph { 
+    margin: 0px 0 10px 50px;
+    color: white;
+    font-family: "Roboto Light";
+}
+
+.btn {
+    margin: 50px 0 30px 50px;
+    background-color: #4dd589;
+    color: white;
+    padding: 10px 25px;
+    font-family: "Roboto Bold";
+    border: 1px solid #4dd589;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.margin-el { 
+    border-top: 1px solid #253448;
+    display: flex;
+    flex-direction: row;
+    width: 500px;
+    margin-left: 50px;
+}
+
+.passwords {
+    background-color: #253448;
+    margin-top: 20px;
+    width: 200px;
+    height: 30px;
+    border-radius: 5px;
+    margin: 20px auto;
+    color: #4dd589;
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+    vertical-align: middle;
+    padding: 5px 0 1px 0;
+}
